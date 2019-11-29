@@ -1,4 +1,3 @@
-__작성중 : 1911291553__
 # Volumetric Instance-Aware Semantic Mapping and 3D Object Discovery
 
 - 저자 : Margarita Grinvald, Fadri Furrer, Tonci Novkovic, Jen Jen Chung, Cesar Cadena, Roland Siegwart, Juan Nieto
@@ -62,3 +61,4 @@ __작성중 : 1911291553__
 - RGB-D 데이터를 누적시켜 mapping 하는 방법, 
 - pose를 다시 static object로 추정하면 정확하게 나올 듯
 - 자율주행에서는 depth가 너무 짧아서 LiDAR와 같이 써야 되나?
+
