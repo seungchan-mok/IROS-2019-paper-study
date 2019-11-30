@@ -34,6 +34,8 @@
 - 법선 벡터 추출 후, depth 정보와 법선 사이 각도로 경계면 물체의 경계면을 검출
 - 매 프레임마다 표면의 볼록도와 3D 거리 정보로 닫힌 2D영역 R_i의 세트 R_t 및 3D segment s_i의 세트 S_t를 생성하기 위해 결합됨
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=R_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_i" title="R_i" /></a>
+
 ### Semantic instance-aware segmentation refinement
 
 - Mask R-CNN 프레임워크로 RGB프레임의 Object sementic segmentation
