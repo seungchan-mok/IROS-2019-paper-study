@@ -18,7 +18,7 @@
 
 
 - pose가 주어진 RGB-D 카메라에서 volumetric object-centric maps을 점진적으로 만드는 방법을 제시
-- 매 프레임의 segmentation은 unsupervised geometric 방식(?)과 instance-aware semantic predictions을 결합하여 현재 프레임의 요소들과 이전에 볼 수 없던 물체를 인식함
+- 매 프레임의 segmentation은 unsupervised geometric 방식과 instance-aware semantic predictions을 결합하여 현재 프레임의 요소들과 이전에 볼 수 없던 물체를 인식함
 - 다른 프레임에서 predicted instance를 tracking
 - 3d shape, location을 map에 통합, 가능하면 semantic class 정보를 global volume에 통합
 
@@ -32,14 +32,14 @@
 
 - 각 물체가 볼록한 표면을 갖는다는 가정으로 depth 정보를 이용해 물체 후보 분류
 - 법선 벡터 추출 후, depth 정보와 법선 사이 각도로 경계면 물체의 경계면을 검출
-- 매 프레임마다 표면의 볼록도와 3D 거리 정보로 닫힌 2D영역 <a href="https://www.codecogs.com/eqnedit.php?latex=R_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_i" title="R_i" /></a>의 세트 R_t 및 3D segment s_i의 세트 S_t를 생성하기 위해 결합됨
+- 매 프레임마다 표면의 볼록도와 3D 거리 정보로 닫힌 2D영역 <a href="https://www.codecogs.com/eqnedit.php?latex=R_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_i" title="R_i" /></a>의 세트 <a href="https://www.codecogs.com/eqnedit.php?latex=R_t" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_t" title="R_t" /></a> 및 3D segment <a href="https://www.codecogs.com/eqnedit.php?latex=s_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?s_i" title="s_i" /></a>의 세트 <a href="https://www.codecogs.com/eqnedit.php?latex=S_t" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_t" title="S_t" /></a>를 생성하기 위해 결합됨
 
 
 
 ### Semantic instance-aware segmentation refinement
 
 - Mask R-CNN 프레임워크로 RGB프레임의 Object sementic segmentation
-- 앞에서 검출된 S_t와 R_t로 비교, 라벨 값 할당, 같은 객체 묶음
+- 앞에서 검출된 <a href="https://www.codecogs.com/eqnedit.php?latex=S_t" target="_blank"><img src="https://latex.codecogs.com/gif.latex?S_t" title="S_t" /></a>와 <a href="https://www.codecogs.com/eqnedit.php?latex=R_t" target="_blank"><img src="https://latex.codecogs.com/gif.latex?R_t" title="R_t" /></a>로 비교, 라벨 값 할당, 같은 객체 묶음
 
 ### Data associdation
 
