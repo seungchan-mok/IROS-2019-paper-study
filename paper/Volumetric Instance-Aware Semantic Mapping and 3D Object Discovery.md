@@ -60,4 +60,4 @@
 
 - RGB-D 데이터를 누적시켜 mapping 하는 방법, 
 - pose를 다시 static object로 추정하면 정확하게 나올 듯
-- 자율주행에서는 depth가 너무 짧아서 LiDAR와 같이 써야 되나?
+- 자율주행에서는 depth가 너무 짧아서 LiDAR와 같이 써야 가능할 듯
