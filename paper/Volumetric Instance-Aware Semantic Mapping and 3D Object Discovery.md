@@ -32,16 +32,16 @@
 
 - 각 물체가 볼록한 표면을 갖는다는 가정으로 depth 정보를 이용해 물체 후보 분류
 - 법선 벡터 추출 후, depth 정보와 법선 사이 각도로 경계면 물체의 경계면을 검출
-- 매 프레임마다 표면의 볼록도와 3D 거리 정보로 닫힌 2D영역 $R_i$의 세트 $R_t$ 및 3D segment $s_i$의 세트 $S_t$를 생성하기 위해 결합됨
+- 매 프레임마다 표면의 볼록도와 3D 거리 정보로 닫힌 2D영역 $$$R_i$$$의 세트 $$$R_t$$$ 및 3D segment $$$s_i$$$의 세트 $$$S_t$$$를 생성하기 위해 결합됨
 
 ### Semantic instance-aware segmentation refinement
 
 - Mask R-CNN 프레임워크로 RGB프레임의 Object sementic segmentation
-- 앞에서 검출된 $S_t$와 $R_t$로 비교, 라벨 값 할당, 같은 객체 묶음
+- 앞에서 검출된 $$$S_t$$$와 $$$R_t$$$로 비교, 라벨 값 할당, 같은 객체 묶음
 
 ### Data associdation
 
-- tracking. geometric table $L$과 영구 객체 instance label $O$를 정의
+- tracking. geometric table $$$L$$$과 영구 객체 instance label $$$O$$$를 정의
 - 카메라 뷰에서 보이는 객체를 고려(known pose 이용)
 
 ### Map integration
