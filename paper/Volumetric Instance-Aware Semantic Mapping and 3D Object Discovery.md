@@ -14,8 +14,6 @@
 
 ## Abstract
 
----
-
 
 - pose가 주어진 RGB-D 카메라에서 volumetric object-centric maps을 점진적으로 만드는 방법을 제시
 - 매 프레임의 segmentation은 unsupervised geometric 방식과 instance-aware semantic predictions을 결합하여 현재 프레임의 요소들과 이전에 볼 수 없던 물체를 인식함
@@ -25,8 +23,6 @@
 ---
 
 ## Method
-
----
 
 ### Geometric segmentation
 
