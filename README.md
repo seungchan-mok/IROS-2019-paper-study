@@ -11,6 +11,27 @@ IROS 2019의 Proceeding Paper 요약 및 정리자료 모음 공간입니다.
 - markdown 문서로 작성을 원칙으로 합니다.
   - markdown 문법 [참고 문서](https://guides.github.com/features/mastering-markdown/)
 - 리뷰한 논문에 대한 Reference를 명확히 작성합니다.
+- 기본 양식은 다음과 같습니다. 단, 논문링크,github가 존재하지 않는 경우는 생략합니다.
+```
+# title of paper
+
+- 저자 : ㅁㅁㅁ
+- [paper](논문링크)
+- [github](url of github)
+
+---
+
+## 목차 1
+- 내용1
+- 내용2....
+
+## 목차 2
+- 내용3.....
+
+## Comment
+- 논문에 대한 간단한 의문점, 장점, 단점 등....
+
+```
 
 ### Contributor
 
