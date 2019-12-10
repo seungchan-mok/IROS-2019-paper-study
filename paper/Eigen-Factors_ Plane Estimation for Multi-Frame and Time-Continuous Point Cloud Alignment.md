@@ -18,6 +18,9 @@
 
 ## Experimentss
 
+- 랜덤 궤적을 생성하고 다양한 평면에 해당하는 합성 데이터를 시뮬레이션함(Generate random trajectory and various plane were simulated).
+- EF는 매우 부드러운 평면을 계산 가능함(EFs are able to calculate very smooth planes at the cost of displacing trajectories)
+
 
 ## Comments
 
