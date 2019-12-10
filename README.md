@@ -2,8 +2,6 @@
 
 IROS 2019의 Proceeding Paper 요약 및 정리자료 모음 공간입니다.
 
-## 목표
-
 ### History
 [Volumetric Instance-Aware Semantic Mapping and 3D Object Discovery](https://github.com/msc9533/IROS-2019-paper-study/blob/master/paper/Volumetric%20Instance-Aware%20Semantic%20Mapping%20and%203D%20Object%20Discovery.md)  
 [Exploiting Sparse Semantic HD Maps for Self-Driving Vehicle Localization](https://github.com/msc9533/IROS-2019-paper-study/blob/master/paper/Exploiting%20Sparse%20Semantic%20HD%20Maps%20for%20Self-Driving%20Vehicle%20Localization.md)  
