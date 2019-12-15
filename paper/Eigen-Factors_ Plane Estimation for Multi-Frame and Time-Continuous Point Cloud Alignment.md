@@ -28,6 +28,9 @@
 - Closed-form derivation of the EFs’ gradients using SE(3) and Lie algebra. 
 - A time-continuous derivation of EFs using interpolation in the manifold.
 
+- gradient method 기법을 통한 최적화 작업 수행
+
+
 ## Experiments
 
 - 랜덤 궤적을 생성하고 다양한 평면에 해당하는 합성 데이터를 시뮬레이션함(Generate random trajectory and various plane were simulated).
