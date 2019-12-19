@@ -31,6 +31,14 @@
 - gradient method 기법을 통한 최적화 작업 수행
 
 
+## Method
+
+- 잘 정렬되기 위한 문제를 계산하기 위해 여러 평면이 필요하기 때문에 제안된 방법을 Eigen-Factor(EF)라고 함.
+- LiDAR는 가까운 거리에 있는 데이터는 dense한 데이터를 얻을 수 있지만 데이터가 멀어질수록 resolution이 떨어지는 문제가 있음
+- RGB-D 카메라는 매우 dense한 point cloud데이터를 얻을 수 있지만 거리가 먼 데이터의 신뢰성이 떨어짐
+- 
+
+
 ## Experiments
 
 - 랜덤 궤적을 생성하고 다양한 평면에 해당하는 합성 데이터를 시뮬레이션함(Generate random trajectory and various plane were simulated).
