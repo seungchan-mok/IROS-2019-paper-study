@@ -36,7 +36,8 @@
 - 잘 정렬되기 위한 문제를 계산하기 위해 여러 평면이 필요하기 때문에 제안된 방법을 Eigen-Factor(EF)라고 함.
 - LiDAR는 가까운 거리에 있는 데이터는 dense한 데이터를 얻을 수 있지만 데이터가 멀어질수록 resolution이 떨어지는 문제가 있음
 - RGB-D 카메라는 매우 dense한 point cloud데이터를 얻을 수 있지만 거리가 먼 데이터의 신뢰성이 떨어짐
-- 
+- Plane은 normal vector와 3차원 벡터 혹은 점이 존재할 시 plane을 구할 수 있음
+- 결국 Plane pi는 plane이 주어졌을때 plane의 boundary내의 점군 데이터를 이용하여 normal vector도 구할 수 있음
 
 
 ## Experiments
